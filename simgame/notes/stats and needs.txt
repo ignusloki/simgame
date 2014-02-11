@@ -1,0 +1,22 @@
+Stats:
+Attractiveness - This stat determines how attractive you are seen as by others. The higher your Attractiveness, makes physical interactions easier and reduces the incidence of negative events pertaining to your appearance.
+
+Charisma - This stat determines your ability to converse with others, both in real life and in-game. The higher your Charisma, the more you will be able to persuade others to give to or do things for you.
+
+Endurance - This stat determines how you're able to keep playing your game without taking a break. The higher your Endurance, the more slowly each of your needs decays.
+
+Intelligence - This stat determines your overall aptitude in tasks of the mind. The higher your Intelligence, the more quickly you will be able to progress in your game, and the better equipped you will be at handling tasks that require serious thought.
+
+
+Needs:
+Happiness - This need determines your general disposition towards life. A high Happiness allows you to go about life as you please and gives slight boosts to certain stats. A low Happiness will cause you to become depressed and will impede several aspects of your life. If Happiness is reduced to 0, you will attempt to commit suicide.
+
+Health - This need determines how physically and mentally healthy your character is. A high Health will cause your happiness to decay more slowly and will reduce the incidence of negative health-related events from occurring. A low Health will conversely cause your happiness to decay faster and will increase the incidence of negative health-related events. If your Health drops to 0, you will die from disease.
+
+Hunger - This need determines your current desire for food and drink. A high Hunger will cause your Happiness and Health needs to decay more slowly. A low Hunger will conversely cause these stats to decay more quickly. If Hunger is reduced to 0, you will die of starvation.
+
+Playability - This need determines how willing you are to spend time playing your favorite game. A high Playability allows you to be content while playing and advance in the game at normal rate. A low Playability will cause your progress within the game to slow down until you spend time away from it. If your Playability drops to 0, you will stop being able to play until this stat improves.
+
+Sex - This need determines how thoroughly sexed you are. A high Sex allows you to go about life as normal and will cause your Happiness need to decay more slowly. A low Sex will cause both your Happiness and Playability needs to decay more quickly. If your Sex drops to 0, you will stop whatever you may be doing to masturbate.
+
+Sleep - This need determines how rested you are. A high Sleep will allow you to function normally. A low Sleep will cause you to perform more poorly at whatever tasks you are trying to do. If your Sleep drops to 0, you will pass out wherever you are until you're rested enough to function again.

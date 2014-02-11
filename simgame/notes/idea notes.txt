@@ -1,0 +1,42 @@
+Age:
+allow for several options (high school age, college age, adult age)
+high-school kid
+
+Gender:
+perks and foils inherent to each
+include trans option?
+
+Personality:
+attractiveness
+intelligence
+charisma
+
+Needs:
+food
+sleep
+health
+happiness
+socializing?
+sex?
+
+Items:
+Money accumulated to buy items.
+Vibrator/fleshlight (helps with sex need)
+fedora (+attr, -cha)
+decorative items help with happiness (plants, nicer furniture, etc)
+
+Perks:
+loner (less socializing needed)
+confident (more attr, lower happiness decay)
+rich parents (more income)
+fast metabolism (inc hunger decay, not fat)
+
+Foils:
+christian parents (lose sunday mornings)
+obese (maybe part of personality?)
+aspergers (higher int, lower cha)
+sickness (needs medications)
+
+Misc:
+random events alter stats
+play through timeline sims-style (slow or fast)
