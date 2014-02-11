@@ -39,10 +39,10 @@ function initAvatar(){
 			if (this.timeline.indexOf(eventGenerated) == -1){
 				this.timeline[nEvent] = eventGenerated;
 				nEvent++;				
-				console.log("Event accepted in player " + nEvent + " - " + eventGenerated.Title);
+				console.log("Event accepted in player " + nEvent + " - " + eventGenerated.title);
 				return true;
 			} else {
-				console.log("Event already in player " + eventGenerated.Title);
+				console.log("Event already in player " + eventGenerated.title);
 				return false;
 			}
 		}

@@ -16,7 +16,7 @@ function initEvent() {
         {
             var idEvent = Math.floor(Math.random() * (max - min)) + min;
             this.nEvents += 1;
-            return this.databaseEvent.[idEvent];
+            return this.databaseEvent.random[idEvent];
         };
     };
 }

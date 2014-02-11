@@ -8,7 +8,6 @@ function startGame (){
 	var nowEvent;
 	var goEvent = false;
 	var i=0;
-	var dbevent;
 	
 	initEvent();
 	initAvatar();
