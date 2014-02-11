@@ -2,15 +2,17 @@
  * @author Felipe
  */
 
-function startGame (){
+function startGame (){	
 	
-	initEvent();
-	initAvatar();
-	event.databaseEvent = loadEvent();
 	var goGame = true;
 	var nowEvent;
 	var goEvent = false;
-	var i=0
+	var i=0;
+	var dbevent;
+	
+	initEvent();
+	initAvatar();
+	event.databaseEvent = dbevent; //Load all events in the event object
 	
 	while (goGame) {
 	
@@ -19,7 +21,5 @@ function startGame (){
 		console.log("goEvent valor is: " + goEvent); 
 		i++;
 		if (i>10) {goGame=false;};
-	}	
-	
-	
+	}		
 }

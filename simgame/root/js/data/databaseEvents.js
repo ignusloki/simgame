@@ -1,4 +1,4 @@
-event = {
+dbevent = {
     "Internet Failure!": {
         description: "Your connection with the internet is suddenly interrupted! What are you going to do?"
     },

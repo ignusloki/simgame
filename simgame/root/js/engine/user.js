@@ -6,27 +6,30 @@ var avatar;
 var nEvent = 0;
 
 function initAvatar(){
-	avatar = new function (period, gender, personality, hunger, health, happiness, perk, foil) {
+	avatar = new function (name, gender, personality, perk, foil, moeny, health, happiness) {
 		
-		//Attributes to the avatar
-		this.period = period;
+		//Passive attributes to the avatar
+		this.name = name;
 		this.gender = gender;
 		this.personality = personality;
-		this.hunger = hunger;
-		this.health = health;
-		this.happiness = happiness;
 		this.perk = perk;
 		this.foil = foil;
 		
+		//Active attributes to the avatar
+		this.moeny = moeny;
+		this.health = health;
+		this.happiness = happiness;		
+		
 		//Functions to recover data
-		this.getPeriod = function(){return this.period}
-		this.getGEnder = function(){return this.gender}
-		this.getPersonality = function(){return this.personality}
-		this.getHunger = function(){return this.hunger}
-		this.getHealth = function(){return this.health}
-		this.getHappiness = function(){return this.happiness}
-		this.getPerk = function(){return this.perk}
-		this.getFoil = function(){return this.foil}		
+		this.getName = function(){return this.name};
+		this.getGender = function(){return this.gender};
+		this.getPersonality = function(){return this.personality};	
+		this.getPerk = function(){return this.perk};
+		this.getFoil = function(){return this.foil};
+		
+		this.getMoeny = function(){return this.money};
+		this.getHealth = function(){return this.health};
+		this.getHappiness = function(){return this.happiness};
 		
 		//Array which is going to register all the events sent to the player
 		this.timeline = [];
