@@ -1,7 +1,14 @@
 body {
     background-color: white;
 }
-canvas {
-    width: 50%;
-    height: 50%;
+
+#console {
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    width: 713px;
+    height: 500px;
+    border: 5px solid black;
+    overflow: scroll;
+    text-align: center;
 }

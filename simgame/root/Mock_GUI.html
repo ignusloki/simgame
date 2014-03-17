@@ -11,59 +11,68 @@
   <script type="text/javascript" src="js/engine/user.js"></script>
   <script type="text/javascript" src="js/engine/event.js"></script> 
   <script type="text/javascript" src="js/game_mock.js"></script>
-
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
   <div>
     <header>
       <h1>Mock_GUI</h1>
-    </header>
-    
-    <form onsubmit="return false;">
-    
-        Name:<input value="text" name="name" id="name" size="15"><br>  
-        Gender:
-        <select id="gender" name="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>  
-        </select>
-            
-        <br>
-        
-        Select your personality:
-        <select id="personality" name="personality">
-          <option value="test1">Test1</option>
-          <option value="test2">Test2</option>
-          <option value="test3">Test3</option>
-          <option value="test4">Test4</option>
-        </select>    
-        
-        <br>
-        
-        Select your perk:
-        <select id="perk" name="perk">
-          <option value="test1">Test1</option>
-          <option value="test2">Test2</option>
-          <option value="test3">Test3</option>
-          <option value="test4">Test4</option>
-        </select>
-        
-        <br>
-        
-        Select your foil:
-        <select id="foil" name="foil">
-          <option value="test1">Test1</option>
-          <option value="test2">Test2</option>
-          <option value="test3">Test3</option>
-          <option value="test4">Test4</option>
-        </select>
-        
-        <br><br>
-        
-        <input type="submit" value="Start Game" onclick="fillPlayerStats();">
-    
-    </form>
+    </header>    
+    <table>
+        <tr>
+            <td>    
+                Name:
+                <input value="text" name="name" id="name" size="15"><br>  
+                Gender:
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>  
+                </select>
+                        
+                <br>
+                    
+                Select your personality:
+                <select id="personality" name="personality">
+                    <option value="test1">Test1</option>
+                    <option value="test2">Test2</option>
+                    <option value="test3">Test3</option>
+                    <option value="test4">Test4</option>
+                </select>    
+                    
+                <br>
+                    
+                Select your perk:
+                <select id="perk" name="perk">
+                    <option value="test1">Test1</option>
+                    <option value="test2">Test2</option>
+                    <option value="test3">Test3</option>
+                    <option value="test4">Test4</option>
+                </select>
+                    
+                <br>
+                    
+                Select your foil:
+                <select id="foil" name="foil">
+                    <option value="test1">Test1</option>
+                    <option value="test2">Test2</option>
+                    <option value="test3">Test3</option>
+                    <option value="test4">Test4</option>
+                </select>                    
+                <br><br>                    
+                <button type="button" id="gameStart">Start Game</button>                
+            </td>
+            <td>
+                <div id="console">
+                </div>                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" id="oneWeek" value="time">One Week</button>
+            </td>
+        </tr>        
+    </table>    
     <footer>
         <p>&copy; Copyright  by Felipe</p>
     </footer>

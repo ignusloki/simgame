@@ -1,7 +1,7 @@
 var dbevent = {
 	"random":[
 		{
-			title: "Internet Failure!",
+			title: "Internet Problems!",
 			description: "Your connection with the internet is suddenly interrupted!!"
 		},
 		{
@@ -9,13 +9,34 @@ var dbevent = {
 	        description: "You are sick!!"
 		},
 		{
-			title: "Exam period!!",
-	        description: "You need to study!!"
+			title: "You found money!",
+	        description: "You found money in the street while walking! Nice!"
 		},
 		{
-			title: "Fired!",
-	        description: "You lost your job!!"
+			title: "Economic crises!!",
+	        description: "The economey is in the toilet!!"
 		}
 	],
-	"planned":[]
+	"planned":[ 
+	    {
+	    	title: "Start Game",
+	    	description: "Start the game, player can't see this event."
+	    },
+	    {
+	    	title: "Exam period!",
+	    	description: "You need to study!!"
+	    },
+	    {
+	    	title: "Game Event!",
+	    	description: "Special in game event! Double points for everybody!!"
+	    },
+	    {
+	    	title: "End Game",
+	    	description:"End the game, player don't see this event."
+	    },
+	    {
+	    	title: "Teste",
+	    	description:"Teste"
+	    }
+	]
 }
